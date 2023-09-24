@@ -5,7 +5,7 @@ import Basic from './page/Basic';
 import Input1 from './page/Input1';
 import Input2 from './page/Input2';
 import Effect from './page/Effect';
-import Basic2 from './Basic2';
+import Basic2 from './page/Basic2';
 
 function App() {
   return (
