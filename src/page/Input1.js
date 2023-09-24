@@ -7,15 +7,11 @@ function Input1(){
     setData(e.target.value)
   }
 
-
   return(
     <>
       <div>
         <input type="text" onChange={change}/>
         <p>{data}</p>
-      </div> 
-      <div>
-        
       </div>
     </>
   );
