@@ -6,6 +6,8 @@ import Input1 from './page/Input1';
 import Input2 from './page/Input2';
 import Effect from './page/Effect';
 import Basic2 from './page/Basic2';
+import Ref from './page/Ref';
+import Ref2 from './page/Ref2';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Link to="/input1">Input1</Link>
         <Link to="/input2">Input2</Link>
         <Link to="/useEffect">Effect</Link>
+        <Link to="/ref">Ref</Link>
+        <Link to="/ref2">Ref2</Link>
       </nav>
 
       <Routes>
@@ -26,6 +30,8 @@ function App() {
         <Route path="/input1" element={<Input1/>}/>
         <Route path="/input2" element={<Input2/>}/>
         <Route path="/useEffect" element={<Effect/>}/>
+        <Route path="/ref" element={<Ref/>}/>
+        <Route path="/ref2" element={<Ref2/>}/>
       </Routes>
     </BrowserRouter>
   );

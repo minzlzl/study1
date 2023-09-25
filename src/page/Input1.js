@@ -7,6 +7,8 @@ function Input1(){
     setData(e.target.value)
   }
 
+
+  
   return(
     <>
       <div>
